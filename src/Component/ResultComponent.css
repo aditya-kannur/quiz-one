@@ -1,0 +1,46 @@
+.result-container{
+    width: 85vw;
+    background-color: white;
+    color: black;
+    margin-top: 45vh;
+}
+.result{
+    font-size: larger;
+    color: green;
+    margin: 0px;
+}
+.feedback{
+    font-size: small;
+}
+.score{
+    font-size: x-large;
+    color: blue;
+    font-weight: 700;
+}
+.result-container div{
+    display: flex;
+    margin: auto;
+    width: 40vw;
+    font-size: small;
+    font-weight: 700;
+}
+.stats{
+    flex: 1;
+    text-align: start;
+}
+.buttons{
+    display: flex;
+    width: 18vw;
+    justify-content: space-between;
+    margin-left: 35vw;
+
+}
+.play-again{
+    color: blue;
+    background-color: rgb(236, 223, 206);
+
+}
+.back-home{
+    color: green;
+    background-color: rgb(236, 223, 206);
+}
